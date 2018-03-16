@@ -1,0 +1,79 @@
+body{
+    overflow: hidden;
+}
+#content {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 50%;
+    margin-left: -200px;
+    top: 30%;
+
+
+}
+
+#content img {
+    width: 200px;
+    float: left;
+    margin-left: 23%;
+
+}
+
+#content span {
+    clear: both;
+    float: left;
+    font-size: 1.1em;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+
+#content button {
+    clear: both;
+    float: left;
+    width: 93%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background: #247676;
+    color: white;
+    margin-top: 15px;
+}
+
+#content button a {
+    color: white;
+}
+
+#content button:hover {
+    background: #175454;
+}
+
+#content button span {
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    margin-left: -13%;
+
+}
+
+.clear {
+    clear: both;
+
+}
+
+@media (max-width: 600px) {
+    #content {
+        left: 0;
+        margin-left: 0;
+        width: 100%;
+        padding: 5px;
+    }
+    #content img {
+    width: 200px;
+    float: left;
+    
+    margin-left: calc(50% - 100px);
+
+}
+}
